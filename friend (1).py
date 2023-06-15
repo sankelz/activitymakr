@@ -12,7 +12,7 @@ b = int(input('enter here:'))
 if b < 2:
     print ("great! let's get started :)")
     import random
-    num = random.randint(0, 5)
+    num = random.randint(1, 5)
     print (num)
     if num == 1:
         print ("--you're gonna go for a run!")
